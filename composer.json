@@ -1,0 +1,29 @@
+{
+  "name": "DemoFramework",
+  "description": "春风PHP框架 春风的第一个作品",
+  "keywords": [
+    "PHP Demo Framework",
+    "Demo Framework"
+  ],
+  "homepage": "http://www.chunblog.com/",
+  "time": "2019-10-10",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ChunFeng",
+      "email": "gengbaochun@gmail.com",
+      "homepage": "http://www.chunblog.com/"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "phpunit/phpunit": "4.8.*",
+    "linfo/linfo": "^4.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
