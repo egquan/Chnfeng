@@ -1,9 +1,11 @@
 {
-  "name": "DemoFramework",
-  "description": "春风PHP框架 春风的第一个作品",
+  "name": "ChunFengMini",
+  "description": "ChunFengMini是一个PHP微框架 结构简单易用，实现了简单的MVC开发模,基于Pdo驱动开发，支持所有数据库。",
   "keywords": [
-    "PHP Demo Framework",
-    "Demo Framework"
+    "ChunFeng",
+    "ChunFengMini",
+    "ChunFengMiniPHP",
+    "PHPMini"
   ],
   "homepage": "http://www.chunblog.com/",
   "time": "2019-10-10",
@@ -16,9 +18,7 @@
     }
   ],
   "require": {
-    "ext-pdo": "*",
-    "phpunit/phpunit": "4.8.*",
-    "linfo/linfo": "^4.0"
+    "ext-pdo": "*"
   },
   "repositories": {
     "packagist": {

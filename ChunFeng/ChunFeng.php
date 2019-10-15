@@ -23,7 +23,7 @@ class ChunFeng
         $action = $route->action;
         $ctrlClass = APP_CTRL.'\\'.$ctrlClass.'Ctrl';
         $ctrl = new $ctrlClass();
-        $ctrl->$action();
+        return $ctrl->$action();
     }
 
     /**

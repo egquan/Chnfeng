@@ -7,10 +7,14 @@
  */
 namespace app\model;
 use ChunFeng\base\Model;
+
+//需要链接数据库 以及实现查询方法必须继承 Model 基类
 class User extends Model
 {
+	//继承Model 必须实现此方法;
     public static function tableName()
     {
+    	// return 数据表名
         return 'user';
     }
 

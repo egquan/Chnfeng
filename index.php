@@ -17,11 +17,13 @@ define('DEBUG',true);
 //Controller 命名空间前缀
 define('APP_CTRL','\app\ctrl');
 
+//判断是否开发模式
 if (DEBUG){
     ini_set('display_errors','On');
 }else{
     ini_set('display_errors','Off');
 }
+//载入Composer
 require CHUNFENG . '/vendor/autoload.php';
 //加载函数库
 require CORE.'/common/function.php';
@@ -29,5 +31,5 @@ require CORE.'/common/function.php';
 require CORE.'/ChunFeng.php';
 //自动加载
 spl_autoload_register('\core\ChunFeng::load');
-
-\core\ChunFeng::run();
+//运行框架
+echo \core\ChunFeng::run();
