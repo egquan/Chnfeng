@@ -12,6 +12,7 @@ Apache
 
 Mysql 8.0
 
+
 ##目录结构
 入口文件 index
 
@@ -23,12 +24,14 @@ Mysql 8.0
 
 Composer库目录 /vendor
 
+
 ##使用说明
 ###控制器
 编写控制器(Ctrl)时 控制器必须加 Ctrl后缀，文件名格式为 控制器名+Ctrl.php， 如果需要渲染视图文件必须继承Ctrl基类，详情在Index控制器里有说明！
 
 ###模型
 编写Model 如果需要连接数据库必须继承Model基类， 并实现 tableName 静态方法， 详情请看Use模型文件。
+
 
 ##模型 数据库操作方法
 ###必须继承Model基类  并实现 tableName 静态方法！
@@ -50,4 +53,6 @@ Composer库目录 /vendor
 
 	    //SQL查询
 	    User::querySql('SELECT * FROM user WHERE id >=  600 ORDER BY id DESC LIMIT 20')->fetchAll();
+
+
 ##未完待续
