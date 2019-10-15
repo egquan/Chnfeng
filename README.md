@@ -10,7 +10,7 @@ PHP 7.3
 
 Apache
 
-Mysql 8.0
+Mysql 8
 
 
 ##目录结构
